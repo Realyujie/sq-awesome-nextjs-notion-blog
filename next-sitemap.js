@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://szufrank.top',
+  siteUrl: 'https://space.realyujie.wang/',
   generateRobotsTxt: true,
   sitemapSize: 7000,
 }
