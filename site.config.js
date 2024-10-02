@@ -1,27 +1,27 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '6a76fdd9ec6d4ae2855aa790d620eec4',
+  rootNotionPageId: '1135932ac69d80aab433f86a11ff8f65',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '菜饼的技术博客',
-  domain: 'szufrank.top',
-  author: '菜饼同学',
+  name: "Squanchy's Space",
+  domain: 'space.realyujie.wang',
+  author: 'Squanchy',
 
   // open graph metadata (optional)
-  description: '菜饼同学: 专注硬核技术，校招打法，个人认知体系成长',
-  socialImageTitle: '菜饼同学',
+  description: 'Welcome to Squanchy\'s Space, a creative blog and tech showcase.',
+  socialImageTitle: 'Squanchy',
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
   twitter: null,
-  github: 'frankcbliu',
-  wechatPublicName: '菜饼不菜',
-  wechatPublicURL: 'https://mp.weixin.qq.com/s?__biz=MzkxMzIyOTI1Mg==&mid=2247486027&idx=1&sn=2840f0b8cfdc982b9095dd18ec9892e5',
-  notionPublic: 'https://frankcbliu.notion.site/6a76fdd9ec6d4ae2855aa790d620eec4',
+  github: 'realyujie',
+  // wechatPublicName: 'xxx',
+  // wechatPublicURL: 'xxx',
+  // notionPublic: 'xxx',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -34,8 +34,8 @@ module.exports = {
   imageCDNHost: null,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: 'frankcbliu/awesome-nextjs-notion-blog',
-  utterancesGitHubLabel: '博客评论',
+  // utterancesGitHubRepo: 'Realyujie/sq-awesome-nextjs-notion-blog',
+  // utterancesGitHubLabel: '博客评论',
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
@@ -43,7 +43,7 @@ module.exports = {
   isPreviewImageSupportEnabled: false,
 
   // set null to remove from year
-  copyRightFromYear: 2019,
+  copyRightFromYear: 2024,
 
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
@@ -70,7 +70,7 @@ module.exports = {
     '/post-list': '651765de6a0f4a729f9186f26381aef3',
     '/one-year-review': 'c6461186bea149eb9a83c0d7284f2921',
   },
-  showPageAsideSocials: true,
+  showPageAsideSocials: false,
   footCounterList: [
     '6a76fdd9ec6d4ae2855aa790d620eec4',
     '651765de-6a0f-4a72-9f91-86f26381aef3'
