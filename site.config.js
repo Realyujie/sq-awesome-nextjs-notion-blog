@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: "Squanchy's Space",
-  domain: 'space.realyujie.wang',
+  domain: 'https://sq-awesome-nextjs-notion-blog.vercel.app/',
   author: 'Squanchy',
 
   // open graph metadata (optional)
